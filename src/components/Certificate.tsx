@@ -265,7 +265,7 @@ export default function Certificate({ formData, submissionId }: CertificateProps
                     {formData.userDetails.name}
                   </h2>
                   <p style={{ fontSize: 12, color: '#6b7280', fontFamily: 'Arial, sans-serif', margin: 0 }}>
-                    Roll No: {formData.userDetails.rollNo} &nbsp;|&nbsp; {formData.userDetails.institution}
+                    Location: {formData.userDetails.rollNo} &nbsp;|&nbsp; Organisation: {formData.userDetails.institution}
                   </p>
                   <div style={{ width: 200, height: 1, background: '#d1fae5', margin: '8px auto' }} />
                   <p style={{ fontSize: 12, color: '#374151', fontFamily: 'Arial, sans-serif', lineHeight: 1.6, margin: 0 }}>
