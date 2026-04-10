@@ -21,7 +21,7 @@ const DEFAULT_FORM: FormData = {
     name: '',
     email: '',
     rollNo: '',
-    institution: 'Meghnad Saha Institute of Technology',
+    institution: '',
   },
   pledges: {},
   photoUrl: null,
