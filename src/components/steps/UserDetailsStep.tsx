@@ -114,15 +114,17 @@ export default function UserDetailsStep({ data, onNext }: UserDetailsStepProps) 
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            Roll Number / Student ID <span className="text-red-500">*</span>
+            Location <span className="text-red-500">*</span>
           </label>
           <div className="relative">
-            <Hash className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
+            <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
+  📍
+</span>
             <input
               type="text"
               value={form.rollNo}
               onChange={e => handleChange('rollNo', e.target.value)}
-              placeholder="e.g. 23001234"
+              placeholder=""
               className={`w-full pl-10 pr-4 py-3 rounded-lg border text-sm transition-colors ${
                 errors.rollNo
                   ? 'border-red-400 bg-red-50 focus:ring-red-300'
@@ -135,7 +137,7 @@ export default function UserDetailsStep({ data, onNext }: UserDetailsStepProps) 
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            Institution <span className="text-red-500">*</span>
+            Organisation <span className="text-red-500">*</span>
           </label>
           <div className="relative">
             <Building2 className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
@@ -143,7 +145,7 @@ export default function UserDetailsStep({ data, onNext }: UserDetailsStepProps) 
               type="text"
               value={form.institution}
               onChange={e => handleChange('institution', e.target.value)}
-              placeholder="Institution name"
+              placeholder=""
               className={`w-full pl-10 pr-4 py-3 rounded-lg border text-sm transition-colors ${
                 errors.institution
                   ? 'border-red-400 bg-red-50 focus:ring-red-300'
