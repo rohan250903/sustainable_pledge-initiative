@@ -230,7 +230,7 @@ export default function Certificate({ formData, submissionId }: CertificateProps
     marginRight: 20,   // 👈 adds space from text
     flexShrink: 0      // 👈 prevents shrinking
   }}>
-    <img src="/logo.webp" alt="Logo 1"
+    <img src="logo.webp" alt="Logo 1"
       style={{ width: 50, height: 50, objectFit: 'contain' }} />
   
   </div>
@@ -243,7 +243,7 @@ export default function Certificate({ formData, submissionId }: CertificateProps
     marginLeft: 20,   // 👈 adds space from text
     flexShrink: 0
   }}>
-    <img src="/glogo.png" alt="Logo 3"
+    <img src="glogo.png" alt="Logo 3"
       style={{ width: 50, height: 50, objectFit: 'contain' }} />
     
   </div>
