@@ -10,7 +10,7 @@ export default function Header() {
         </div>
         <div>
           <h1 className="text-lg md:text-xl font-bold leading-tight">
-            Sustainability Pledge
+            Green Sustainability Pledge
           </h1>
           <p className="text-green-200 text-xs md:text-sm mt-0.5 leading-snug">
             An initiative taken by <span className="font-semibold text-white">Greenovation Club</span> of{' '}
