@@ -51,9 +51,9 @@ export default function UserDetailsStep({ data, onNext }: UserDetailsStepProps) 
       <p className="text-gray-600 text-sm leading-relaxed">
         At Meghnad Saha Institute of Technology (MSIT), sustainability is in our nature. 
   MSIT is committed to being a positive force for the future of our environment—both 
-  on campus and beyond—through education, research, and responsible resource management. 
+  on campus and beyond—through education, research and adequate resource management. 
   However, creating a truly sustainable future requires collective action from students, 
-  faculty, staff, and communities across the world.
+  faculty, staff and communities across the world.
       </p>
 
       <p className="text-gray-600 text-sm leading-relaxed mt-4">
